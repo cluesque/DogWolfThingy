@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts 'Hello world!'
+(1..10).each do |number|
+  puts "Count #{number}"
+end
